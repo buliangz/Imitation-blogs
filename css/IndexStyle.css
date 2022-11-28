@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* max-height: 1000px; */
+}
+body{
+    padding-top: 50px;
+    background-color: #e2e2e2;
+}
+/* .bg-color{
+    background-color: aquamarine;
+} */
+.my-style-width{
+    width: 100%;
+}
+.my-style-height{
+    height: 8em;
+}
+.my-style-text{
+    font-size: 1.5em;
+}
+.my-style-margin{
+    margin: 0 1rem;
+}
+/* .my-style-transition{
+    transition: 0.8s;
+} */
+.my-style-flaotPadding{
+    padding: 0 4em;
+}
+/* 面板距离顶部图片 */
+.my-style-panddingTop{
+    padding-top: 2em;
+}
+.my-style-panddingTopName{
+    padding: 0.5rem 0 0 0.5rem;
+}
+.my-style-height-bg{   
+    /* height: 780px;          */
+    background-image: url(../images/nature-6530423.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(108, 99, 87);
+}
+
+.my-style-titleFlaot{
+    margin-top: 10%;
+    color: #F8F8F8;
+    /* background-color: antiquewhite; */
+}
+.my-style-buttomFlaot{
+    margin-top: 10%;
+    /* background-color: #fff; */
+    /* border:none; */
+}
+/* .my-style-buttomFlaot button{
+    background-color: #cda177bd;
+} */
+.my-style-iconFlaot{
+    margin-top: 5%;
+}
+
+.row{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color:#000;
+    
+}
+a:hover{
+    color:rgb(79, 78, 78);
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    /* color:#161515; */
+}
+a:active{
+    color:#fff;
+    text-decoration: none;
+}
+/* .panel a:hover{
+    color: #4a4949;
+} */
+.my-style-fontColor{
+    color: #000000;
+}
+.img-circle{
+    width: 3em;
+    height: 3em;
+}
+/* .btn{
+    box-shadow:4px 4px 4px #88888867;
+} */
+.my-style-soli{
+    width: 80%;
+    height: 1px;
+    margin: 1rem auto 0;
+    background-color: #beb8b8;
+}
+.card-img-top{
+    width: 100%;
+}
+.my-style-textCenter{
+    height: 1em;
+}
+.carousel-indicators .active{
+    width: 8px;
+    height: 8px;
+}
+.carousel-indicators li{
+    width: 6px;
+    height: 6px;
+}
+.my-style-border{
+    border: solid #f8f8f8 8px;
+}
+.my-style-box-shadow{
+    box-shadow: 4px 4px 6px #c9c8c8 ;
+    border-radius: 5px;
+}
+.my-style-but-shadow{
+    box-shadow: 4px 4px 10px #805d29 ;
+    border-radius: 5px;
+}
+.my-style-bottom{
+    height: 4em;
+    /* line-height: 2em; */
+    background-color: #f8f8f8;
+    margin-bottom: 0px;
+    font-size: 1em;
+}
+.my-style-bottom-text{
+    margin-top: 1rem;
+}
