@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章过渡页面</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <!-- 引入自己的css文件 -->
+    <link rel="stylesheet" href="../css/IndexStyle.css">
+    <link rel="shortcut icon" href="../images/011.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container col-sm-12">
+        <div class="container col-sm-12 my-style-flaotPadding text-center">
+            <div class="alert alert-danger">
+                <h4>提示！这里是没有内容的过渡页面哦</h4> 
+                <h4><span id="show">将在5秒后跳转首页...</spn></h4>
+                <h4>若未自动跳转，请<a href="../index.html">点击此处</a>到新页面。<h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">	
+    var t=4;//设定跳转的时间
+    setInterval("refer()",1000); //启动1秒定时
+    function refer(){
+    if(t==0){
+    location="../index.html"; //#设定跳转的链接地址
+    }
+    document.getElementById('show').innerHTML="将在"+t+"秒后返回首页..."; // 显示倒计时
+    t--; // 计数器递减
+    }
+</script>

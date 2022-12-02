@@ -18,7 +18,7 @@ Bootstrap 3
 
 下载后解压点击index.html文件即可食用
 
-#### 说明
+#### 网页说明
 
 1.  个人练习项目
 2.  参考其他上线的个人博客
@@ -31,7 +31,8 @@ Bootstrap 3
 1. Buliangz 
 
 
-#### 特技
+#### 其他说明
 
 1.  页面效果参见Github：https://buliangz.github.io/Imitation-blogs/
 2.  gitee托管链接待更新
+3.  Github提交后更新存在较长延迟
