@@ -376,10 +376,7 @@
             <div >
                 <small class="text-muted">子非鱼 ，焉知鱼之乐</small>                 
             </div>    
-            <div class="text-muted">   
-                <small class="text-muted"><div id="site_newtime"></div></small>             
-                <small class="text-muted">本站已运行：<span id="site_runtime"></span></small>
-            </div>
+            
             <div class="text-muted">   
                 <small class="text-muted"><div id="site_newtime"></div></small>             
                 <small class="text-muted">本站已运行：<span id="site_runtime"></span></small>
@@ -388,4 +385,24 @@
     </div>
 </body>
 <script src="./js/time.js"></script>
+<script>
+    function show_site_runtime(){
+        window.setTimeout("show_site_runtime()",1000); // 每秒运行一次函数
+        X=new Date("11/27/2022 00:00:00"); //建站时间
+        Y=new Date();
+        T=(Y.getTime()-X.getTime()); // 获取当前时间与指定时间之间的时间间隔（ms）	
+        i=24*60*60*1000;
+        d=T/i;
+        D=Math.floor(d); // 计算天数并向下取整
+        h=(d-D)*24;
+        H=Math.floor(h); // 计算剩余不足一天的小时数并向下取整
+        m=(h-H)*60;
+        M=Math.floor(m); // 计算剩余不足一小时的分钟数并向下取整
+        s=(m-M)*60;
+        S=Math.floor(s); // 计算剩余不足一分钟的秒数并向下取整
+        site_newtime.innerHTML= Y;
+        site_runtime.innerHTML= D + " 天 " + H + " 小时 " + M + " 分 " + S + " 秒 ";  
+    }
+    show_site_runtime();
+</script>
 </html>

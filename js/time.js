@@ -14,5 +14,7 @@ function show_site_runtime(){
     S=Math.floor(s); // 计算剩余不足一分钟的秒数并向下取整
     site_newtime.innerHTML= Y;
     site_runtime.innerHTML= D + " 天 " + H + " 小时 " + M + " 分 " + S + " 秒 ";
+
+    
 }
 show_site_runtime();

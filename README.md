@@ -2,12 +2,16 @@
 
 #### 介绍
 
-练习项目，无服务器，无网页后台，由Bootstrap框架搭建项目  
-Bootstrap文件均引用在线cdn文件，暂未引用本地文件
+练习项目
+无服务器，无网页后台
+自主学习Bootstrap后，第一次用Bootstrap框架写的项目，屏幕适配可能会存在问题
 
 #### 网页架构
 
-Html、Css、Javascript、Bootstrap 3 
+Html
+Css
+Javascript
+Bootstrap 3 
 
 
 #### 使用教程
